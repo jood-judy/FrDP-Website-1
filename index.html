@@ -8,9 +8,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
 <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
-<script src="js/script.js" defer></script>
+<script src="script.js" defer></script>
 </head>
 <body data-page="home">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -48,7 +48,7 @@
 
   <section class="section" id="message">
     <div class="message">
-      <div class="message-photo-wrap"><div class="message-photo"><img src="images/leaders/leader-primary.svg" alt="FrPD General Manager"></div><span class="msg-badge"><i data-lucide="badge-check"></i>Leadership message</span></div>
+      <div class="message-photo-wrap"><div class="message-photo"><img src="leader-primary.svg" alt="FrPD General Manager"></div><span class="msg-badge"><i data-lucide="badge-check"></i>Leadership message</span></div>
       <div class="message-copy">
         <p class="chip">Leadership</p>
         <h2>Focused leadership. Shared responsibility.</h2>
@@ -93,7 +93,7 @@
     <header class="sec-head row"><div><h2>Upcoming events</h2><p>Drills, training and gatherings coming up.</p></div>
       <div class="tools"><button class="arrow" id="eventPrev" aria-label="Previous"><i data-lucide="arrow-left"></i></button><button class="arrow" id="eventNext" aria-label="Next"><i data-lucide="arrow-right"></i></button></div></header>
     <div class="rail" id="eventRail" tabindex="0" aria-label="Upcoming events"></div>
-    <p class="empty is-hidden" id="eventEmpty">No upcoming events right now. Add some in js/script.js.</p>
+    <p class="empty is-hidden" id="eventEmpty">No upcoming events right now. Add some in script.js.</p>
   </section>
 
   <section class="section flush" id="achievements">
@@ -110,7 +110,7 @@
     <header class="sec-head"><h2>Latest news</h2><p>Select an update to read it here.</p></header>
     <div class="news">
       <article class="news-main" aria-live="polite">
-        <img id="newsImg" src="images/news/news-1.svg" alt="">
+        <img id="newsImg" src="news-1.svg" alt="">
         <div class="news-copy"><p class="meta"><span id="newsCat"></span> · <time id="newsDate"></time></p><h3 id="newsTitle"></h3><div id="newsBody"></div></div>
       </article>
       <div class="news-list" id="newsList"></div>
